@@ -1,5 +1,5 @@
 
-
+##cash the matrix 
 makeCacheMatrix <- function(x = matrix()) {
   
   I <- NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-
+##check frist if the matrix innverse alrady cached before solving 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   
